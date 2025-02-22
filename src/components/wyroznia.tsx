@@ -1,10 +1,9 @@
-import WyrozniaImage from '../assets/images/wyroznia.jpg'
 import { features } from '../const/data.ts'
 
 export const Wyroznia = () => (
   <section id='wyroznia' className='relative h-[60vh] md:h-[60vh]'>
     <img
-      src={WyrozniaImage}
+      src='https://res.cloudinary.com/dzfvnm3it/image/upload/f_auto,q_auto/v1/cukiernia-pavlova/wyroznia'
       alt='Wyroznia'
       className='h-full w-full object-cover opacity-85'
     />

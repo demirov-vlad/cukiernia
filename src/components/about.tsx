@@ -1,4 +1,3 @@
-import AboutImage from '../assets/images/about.jpg'
 export const About = () => (
   <section id='o-nas' className='bg-[#F5F5F5] pt-10'>
     <div className='container mx-auto px-4'>
@@ -8,7 +7,7 @@ export const About = () => (
       <div className='grid md:grid-cols-2 md:gap-10'>
         <div>
           <img
-            src={AboutImage}
+            src='https://res.cloudinary.com/dzfvnm3it/image/upload/f_auto,q_auto/v1/cukiernia-pavlova/about'
             alt='Nasze wypieki'
             className='hidden w-full items-center rounded-xl object-cover opacity-90 shadow-xl md:block md:h-90 lg:h-80'
           />

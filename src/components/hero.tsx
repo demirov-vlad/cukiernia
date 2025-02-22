@@ -1,9 +1,7 @@
-import Hero from '../assets/images/hero.png'
-
 export const HeroSection = () => (
   <section id='start' className='relative h-[60vh] md:h-[89vh]'>
     <img
-      src={Hero}
+      src='https://res.cloudinary.com/dzfvnm3it/image/upload/f_auto,q_auto/v1/cukiernia-pavlova/hero'
       alt='Piekarnia'
       className='h-full w-full object-cover opacity-85'
     />

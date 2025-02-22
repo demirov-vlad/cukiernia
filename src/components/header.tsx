@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import Logo from '../assets/images/Logo_2.jpg'
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,7 +14,7 @@ export const Header = () => {
           <div className='text-2xl font-bold text-[#2C2C2C] md:text-3xl'>
             <a href='/' className='flex items-center gap-5'>
               <img
-                src={Logo}
+                src='https://res.cloudinary.com/dzfvnm3it/image/upload/f_auto,q_auto/v1/cukiernia-pavlova/logo'
                 alt='Logo'
                 className='h-16 rounded-full md:h-24'
               />
