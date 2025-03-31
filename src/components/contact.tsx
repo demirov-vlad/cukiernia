@@ -1,4 +1,11 @@
-import { Clock, Facebook, Instagram, Mail, MapPin, Phone } from 'lucide-react'
+import {
+  Clock,
+  Facebook,
+  Instagram,
+  MapPin,
+  MessageCircleIcon,
+  Phone,
+} from 'lucide-react'
 
 export const Contact = () => (
   <section id='kontakt' className='pt-10 pb-2'>
@@ -36,12 +43,12 @@ export const Contact = () => (
               </div>
             </div>
             <div className='flex min-w-[287px] items-center'>
-              <Mail className='mr-4 h-6 w-6 text-[#C4A484]' />
+              <MessageCircleIcon className='mr-4 h-6 w-6 text-[#C4A484]' />
               <div>
-                <p className='font-medium'>Email</p>
-                <a href='mailto:example@email.com'>
+                <p className='font-medium'>WhatsApp</p>
+                <a href='https://wa.me/48575384230' target='_blank'>
                   <span className='transition duration-300 hover:text-[#C4A484]'>
-                    example@email.com
+                    Napisać do mnie
                   </span>
                 </a>
               </div>
@@ -50,12 +57,16 @@ export const Contact = () => (
               <Clock className='mr-4 h-6 w-6 text-[#C4A484]' />
               <div>
                 <p className='font-medium'>Godziny otwarcia</p>
-                <p>Poniedziałek - Piątek: 6:00 - 19:00</p>
-                <p>Sobota: 7:00 - 15:00</p>
-                <p>Niedziela: nieczynne</p>
+                <p>Poniedziałek - Piątek: 8:30 - 18:00</p>
+                <p>Sobota: 10:00 - 15:00</p>
+                <p>Niedziela: 10:00 - 15:00</p>
               </div>
             </div>
           </div>
+          <p className='mt-2 flex items-center justify-center'>
+            * Nasze godziny pracy mogą się zmieniać w zależności od ilości i
+            pilności zamówień.
+          </p>
           <div className='flex items-center justify-center gap-5 py-10 text-[#C4A484]'>
             <a
               href='https://www.instagram.com/pavlova.cakes.pl?igsh=bDFseDJrZ3RuaGF6'

@@ -12,7 +12,7 @@ export const Footer = () => {
         </div>
         <div className='mt-8 border-t border-gray-700 pt-8 text-center text-gray-400'>
           <p>
-            &copy; {new Date().getFullYear()} Anastasia Pavlova. Wszelkie prawa
+            &copy; {new Date().getFullYear()} Anastasiia Pavlova. Wszelkie prawa
             zastrzeżone.
           </p>
         </div>

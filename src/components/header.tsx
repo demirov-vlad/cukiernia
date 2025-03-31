@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import ScrollLink from '@/lib/helpers/scroll-link.tsx'
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -14,41 +15,23 @@ export const Header = () => {
           <div className='text-2xl font-bold text-[#2C2C2C] md:text-3xl'>
             <a href='/' className='flex items-center gap-5'>
               <img
-                src='https://res.cloudinary.com/dzfvnm3it/image/upload/f_auto,q_auto/v1/cukiernia-pavlova/logo'
+                src='/src/assets/images/logo.jpg'
                 alt='Logo'
-                className='h-16 rounded-full md:h-24'
+                className='h-16 w-16 rounded-full object-cover md:h-24 md:w-24'
               />
               <div className='flex flex-col'>
-                <span className='uppercase'>CUKIERNIA</span>
+                <span className='text-lg uppercase md:text-xl'>
+                  DOMOWA CUKIERNIA
+                </span>
                 <span className='text-sm'>Miasto Tarnów</span>
               </div>
             </a>
           </div>
           <nav className='hidden space-x-8 text-lg md:flex'>
-            <a
-              href='#o-nas'
-              className='font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            >
-              O nas
-            </a>
-            <a
-              href='#oferta'
-              className='font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            >
-              Oferta
-            </a>
-            <a
-              href='#galeria'
-              className='font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            >
-              Galeria
-            </a>
-            <a
-              href='#kontakt'
-              className='font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            >
-              Kontakt
-            </a>
+            <ScrollLink to='#o-nas'>O nas</ScrollLink>
+            <ScrollLink to='#oferta'>Oferta</ScrollLink>
+            <ScrollLink to='#galeria'>Cennik</ScrollLink>
+            <ScrollLink to='#kontakt'>Kontakt</ScrollLink>
           </nav>
           <button
             className='text-[#2C2C2C] hover:text-[#C4A484] md:hidden'
@@ -66,42 +49,19 @@ export const Header = () => {
           isMenuOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <nav className='container mx-auto flex flex-col items-center space-y-2 px-4 py-4'>
-          <a
-            href='#start'
-            className='py-2 font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Start
-          </a>
-          <a
-            href='#o-nas'
-            className='py-2 font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            onClick={() => setIsMenuOpen(false)}
-          >
-            O nas
-          </a>
-          <a
-            href='#oferta'
-            className='py-2 font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Oferta
-          </a>
-          <a
-            href='#galeria'
-            className='py-2 font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Galeria
-          </a>
-          <a
-            href='#kontakt'
-            className='py-2 font-medium text-[#2C2C2C] hover:text-[#C4A484]'
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Kontakt
-          </a>
+        <nav className='container mx-auto flex flex-col items-center gap-5 space-y-2 px-4 py-4'>
+          <ScrollLink to='#o-nas'>
+            <span onClick={() => setIsMenuOpen(false)}>O nas</span>
+          </ScrollLink>
+          <ScrollLink to='#oferta'>
+            <span onClick={() => setIsMenuOpen(false)}>Oferta</span>
+          </ScrollLink>
+          <ScrollLink to='#galeria'>
+            <span onClick={() => setIsMenuOpen(false)}>Cennik</span>
+          </ScrollLink>
+          <ScrollLink to='#kontakt'>
+            <span onClick={() => setIsMenuOpen(false)}>Kontakt</span>
+          </ScrollLink>
         </nav>
       </div>
     </header>
