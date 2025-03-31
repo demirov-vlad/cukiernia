@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import ScrollLink from '@/lib/helpers/scroll-link.tsx'
+import logo from '/src/assets/images/logo.jpg'
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,7 +16,7 @@ export const Header = () => {
           <div className='text-2xl font-bold text-[#2C2C2C] md:text-3xl'>
             <a href='/' className='flex items-center gap-5'>
               <img
-                src='/src/assets/images/logo.jpg'
+                src={logo}
                 alt='Logo'
                 className='h-16 w-16 rounded-full object-cover md:h-24 md:w-24'
               />
