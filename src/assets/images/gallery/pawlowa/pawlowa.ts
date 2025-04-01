@@ -1,2 +1,2 @@
 import pawlowa1 from './pawlowa1.jpg'
-export { pawlowa1 }
+export const pawlowaImages = [pawlowa1]

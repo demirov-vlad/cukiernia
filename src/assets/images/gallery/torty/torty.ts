@@ -31,7 +31,51 @@ import torty30 from './torty30.jpg'
 import torty31 from './torty31.jpg'
 import torty32 from './torty32.jpg'
 import torty33 from './torty33.jpg'
-export {
+import torty34 from './torty34.jpg'
+import torty35 from './torty35.jpg'
+import torty36 from './torty36.jpg'
+import torty37 from './torty37.jpg'
+import torty38 from './torty38.jpg'
+import torty39 from './torty39.jpg'
+import torty40 from './torty40.jpg'
+import torty41 from './torty41.jpg'
+import torty42 from './torty42.jpg'
+import torty43 from './torty43.jpg'
+import torty44 from './torty44.jpg'
+import torty45 from './torty45.jpg'
+import torty46 from './torty46.jpg'
+import torty47 from './torty47.jpg'
+import torty48 from './torty48.jpg'
+import torty49 from './torty49.jpg'
+import torty50 from './torty50.jpg'
+import torty51 from './torty51.jpg'
+import torty52 from './torty52.jpg'
+import torty53 from './torty53.jpg'
+import torty54 from './torty54.jpg'
+import torty55 from './torty55.jpg'
+import torty56 from './torty56.jpg'
+import torty57 from './torty57.jpg'
+import torty58 from './torty58.jpg'
+import torty59 from './torty59.jpg'
+import torty60 from './torty60.jpg'
+import torty61 from './torty61.jpg'
+import torty62 from './torty62.jpg'
+import torty63 from './torty63.jpg'
+import torty64 from './torty64.jpg'
+import torty65 from './torty65.jpg'
+import torty66 from './torty66.jpg'
+import torty67 from './torty67.jpg'
+import torty68 from './torty68.jpg'
+import torty69 from './torty69.jpg'
+import torty70 from './torty70.jpg'
+import torty71 from './torty71.jpg'
+import torty72 from './torty72.jpg'
+import torty73 from './torty73.jpg'
+import torty74 from './torty74.jpg'
+import torty75 from './torty75.jpg'
+import torty76 from './torty76.jpg'
+
+export const tortyImages = [
   torty1,
   torty2,
   torty3,
@@ -65,4 +109,47 @@ export {
   torty31,
   torty32,
   torty33,
-}
+  torty34,
+  torty35,
+  torty36,
+  torty37,
+  torty38,
+  torty39,
+  torty40,
+  torty41,
+  torty42,
+  torty43,
+  torty44,
+  torty45,
+  torty46,
+  torty47,
+  torty48,
+  torty49,
+  torty50,
+  torty51,
+  torty52,
+  torty53,
+  torty54,
+  torty55,
+  torty56,
+  torty57,
+  torty58,
+  torty59,
+  torty60,
+  torty61,
+  torty62,
+  torty63,
+  torty64,
+  torty65,
+  torty66,
+  torty67,
+  torty68,
+  torty69,
+  torty70,
+  torty71,
+  torty72,
+  torty73,
+  torty74,
+  torty75,
+  torty76,
+]

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import ScrollLink from '@/lib/helpers/scroll-link.tsx'
 import logo from '/src/assets/images/logo.jpg'
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -18,7 +19,7 @@ export const Header = () => {
               <img
                 src={logo}
                 alt='Logo'
-                className='h-16 w-16 rounded-full object-cover md:h-24 md:w-24'
+                className='h-16 w-16 rounded-full object-cover lg:h-24 lg:w-24'
               />
               <div className='flex flex-col'>
                 <span className='text-lg uppercase md:text-xl'>
@@ -28,14 +29,15 @@ export const Header = () => {
               </div>
             </a>
           </div>
-          <nav className='hidden space-x-8 text-lg md:flex'>
+          <nav className='hidden space-x-8 text-lg lg:flex'>
             <ScrollLink to='#o-nas'>O nas</ScrollLink>
             <ScrollLink to='#oferta'>Oferta</ScrollLink>
-            <ScrollLink to='#galeria'>Cennik</ScrollLink>
+            <Link to='/cennik'>Cennik</Link>
+            <Link to='/info'>Dla klienta</Link>
             <ScrollLink to='#kontakt'>Kontakt</ScrollLink>
           </nav>
           <button
-            className='text-[#2C2C2C] hover:text-[#C4A484] md:hidden'
+            className='text-[#2C2C2C] hover:text-[#C4A484] lg:hidden'
             onClick={toggleMenu}
             aria-label='Toggle menu'
           >
@@ -46,7 +48,7 @@ export const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-x-0 top-18 bg-white shadow-lg transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed inset-x-0 top-18 bg-white shadow-lg transition-transform duration-300 ease-in-out lg:hidden ${
           isMenuOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
@@ -57,9 +59,12 @@ export const Header = () => {
           <ScrollLink to='#oferta'>
             <span onClick={() => setIsMenuOpen(false)}>Oferta</span>
           </ScrollLink>
-          <ScrollLink to='#galeria'>
+          <Link to='/cennik'>
             <span onClick={() => setIsMenuOpen(false)}>Cennik</span>
-          </ScrollLink>
+          </Link>
+          <Link to='/info'>
+            <span onClick={() => setIsMenuOpen(false)}>Dla klienta</span>
+          </Link>
           <ScrollLink to='#kontakt'>
             <span onClick={() => setIsMenuOpen(false)}>Kontakt</span>
           </ScrollLink>

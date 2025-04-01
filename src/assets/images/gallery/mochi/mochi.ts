@@ -20,7 +20,7 @@ import mochi19 from './mochi19.jpg'
 import mochi20 from './mochi20.jpg'
 import mochi21 from './mochi21.jpg'
 
-export {
+export const mochiImages = [
   mochi1,
   mochi2,
   mochi3,
@@ -42,4 +42,4 @@ export {
   mochi19,
   mochi20,
   mochi21,
-}
+]

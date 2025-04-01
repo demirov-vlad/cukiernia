@@ -19,7 +19,7 @@ import bento18 from './bento18.jpg'
 import bento19 from './bento19.jpg'
 import bento20 from './bento20.jpg'
 
-export {
+export const bentoImages = [
   bento1,
   bento2,
   bento3,
@@ -40,4 +40,4 @@ export {
   bento18,
   bento19,
   bento20,
-}
+]
