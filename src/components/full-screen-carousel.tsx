@@ -45,7 +45,7 @@ export const FullScreenCarousel: React.FC<FullScreenCarouselProps> = ({
         </Button>
         <Carousel
           setApi={setApi}
-          className='h-[calc(100vh-155px)] md:h-[calc(100vh-185px)] md:max-w-xl'
+          className='h-[calc(100dvh-155px)] md:h-[calc(100vh-185px)] md:max-w-xl'
         >
           <CarouselContent>
             {images.map((image, index) => (
@@ -61,8 +61,8 @@ export const FullScreenCarousel: React.FC<FullScreenCarouselProps> = ({
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className='bottom-[30px] left-10 cursor-pointer !rounded-full text-[#A88A6C] md:top-1/2 md:-left-12' />
-          <CarouselNext className='right-10 bottom-[30px] cursor-pointer !rounded-full text-[#A88A6C] md:top-1/2 md:-right-12' />
+          <CarouselPrevious className='!-bottom-4 left-6 cursor-pointer !rounded-full text-[#A88A6C] md:top-1/2 md:-left-12' />
+          <CarouselNext className='right-6 !-bottom-4 cursor-pointer !rounded-full text-[#A88A6C] md:top-1/2 md:-right-12' />
           {/* Dot Indicator */}
           <div className='absolute !-bottom-4 left-1/2 flex -translate-1/2 justify-center space-x-2 md:bottom-1'>
             {Array.from({ length: count }).map((_, index) => (
