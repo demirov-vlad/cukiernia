@@ -1,3 +1,5 @@
+import ScrollLink from '@/lib/helpers/scroll-link.tsx'
+
 export const HeroSection = () => (
   <section id='start' className='relative h-[60vh] md:h-[89vh]'>
     <img
@@ -13,12 +15,11 @@ export const HeroSection = () => (
         <p className='mb-8 text-xl md:text-2xl'>
           Domowa cukernia. Słodycze tworzone z miłością.
         </p>
-        <a
-          href='#oferta'
-          className='inline-block rounded-full bg-[#C4A484] px-8 py-3 text-lg font-medium text-white transition duration-300 hover:bg-[#A88A6C]'
-        >
-          Zobacz naszą ofertę
-        </a>
+        <ScrollLink to='#oferta'>
+          <p className='inline-block rounded-full bg-[#C4A484] px-8 py-3 text-lg font-medium text-white transition duration-300 hover:bg-[#A88A6C]'>
+            Zobacz naszą ofertę
+          </p>
+        </ScrollLink>
       </div>
     </div>
   </section>

@@ -32,7 +32,7 @@ export const products = [
   },
   {
     id: 4,
-    title: 'Beza Pawlowa',
+    title: 'Beza Pavlova',
     image: pawlowaImages[0],
     description:
       'Pavlova – lekka rozkosz w każdym kęsie! Deser Pavlova to delikatna chmurka z chrupiącej bezy o miękkim wnętrzu, udekorowana lekkim kremem i świeżymi owocami. Ten kultowy deser, stworzony na cześć baletnicy Anny Pawłowej, zachwyca swoją puszystą strukturą i idealnym balansem smaków. Przygotowujemy ten deser według klasycznych receptur, używając wyłącznie naturalnych składników. Chrupiąca skorupka, aksamitny krem i soczyste owoce tworzą doskonałe połączenie. Pavlova to elegancki deser na wyjątkowe okazje lub po prostu na chwilę słodkiej przyjemności. Spróbuj legendarnego deseru – lekkość i smak w każdej łyżeczce!',
@@ -40,10 +40,10 @@ export const products = [
   },
   {
     id: 5,
-    title: 'Inny',
+    title: 'Inne Słodycze',
     image: innyImages[1],
     description:
-      'Zimny sernik na patyku – lody o wyrafinowanym smaku! Przedstawiamy nową wersję ulubionego deseru – zimny sernik w formie lodów! Delikatna serowa konsystencja, chrupiący spód i polewa z czekolady lub owocowego purée zamieniają ten deser w prawdziwą rozkosz. To idealne połączenie kremowego smaku i orzeźwiającej lekkości. Przygotowujemy nasze serniki wyłącznie z naturalnych składników, tworząc deser, który rozpływa się w ustach. Zimny sernik na patyku to doskonały przysmak na upalny dzień, wyjątkową okazję lub po prostu dla przyjemności! Oprócz serników oferujemy również tradycyjne domowe wypieki – pyszne, aromatyczne pierogi, kruche domowe ciasteczka oraz wyjątkowe, świąteczne paschy. Wszystkie nasze produkty przygotowujemy wyłącznie z naturalnych składników, aby zapewnić najwyższą jakość i niezapomniany smak. Spróbuj sernika w nowej odsłonie i odkryj smak domowych wypieków – naturalnych, pełnych pasji i miłości do tradycyjnej kuchni!',
+      'Zimny sernik na patyku – lody o wyrafinowanym smaku! Przedstawiamy nową wersję ulubionego deseru – zimny sernik w formie lodów! Delikatna serowa konsystencja, chrupiący spód i polewa z czekolady lub owocowego dżemu zamieniają ten deser w prawdziwą rozkosz. To idealne połączenie kremowego smaku i orzeźwiającej lekkości. Zimny sernik na patyku to doskonały przysmak na upalny dzień, wyjątkową okazję lub po prostu dla przyjemności! Oprócz serników oferujemy również tradycyjne domowe wypieki – kruche domowe ciasteczka, zefir oraz wyjątkowe, świąteczne paschy. Wszystkie nasze produkty przygotowujemy wyłącznie z naturalnych składników, aby zapewnić najwyższą jakość i niezapomniany smak. Odkryj smak domowych wypieków – naturalnych, pełnych pasji i miłości.',
     gallery: innyImages,
   },
 ]

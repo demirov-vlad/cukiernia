@@ -1,7 +1,7 @@
 import price1 from './torty.jpg'
 import price2 from './mochi.jpg'
 import price3 from './pawlowa.jpg'
-import price4 from './mochi.jpg'
+import price4 from './bento.jpg'
 import price5 from './placek.jpg'
 import price6 from './placek2.jpg'
 

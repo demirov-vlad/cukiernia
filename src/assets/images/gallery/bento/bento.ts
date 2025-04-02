@@ -1,7 +1,6 @@
 import bento1 from './bento1.jpg'
 import bento2 from './bento2.jpg'
 import bento3 from './bento3.jpg'
-import bento4 from './bento4.jpg'
 import bento5 from './bento5.jpg'
 import bento6 from './bento6.jpg'
 import bento7 from './bento7.jpg'
@@ -23,7 +22,6 @@ export const bentoImages = [
   bento1,
   bento2,
   bento3,
-  bento4,
   bento5,
   bento6,
   bento7,
