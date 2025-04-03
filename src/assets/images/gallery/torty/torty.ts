@@ -63,7 +63,6 @@ import torty62 from './torty62.jpg'
 import torty63 from './torty63.jpg'
 import torty64 from './torty64.jpg'
 import torty65 from './torty65.jpg'
-import torty66 from './torty66.jpg'
 import torty67 from './torty67.jpg'
 import torty68 from './torty68.jpg'
 import torty69 from './torty69.jpg'
@@ -141,7 +140,6 @@ export const tortyImages = [
   torty63,
   torty64,
   torty65,
-  torty66,
   torty67,
   torty68,
   torty69,
