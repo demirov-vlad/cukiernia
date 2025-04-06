@@ -32,8 +32,18 @@ export const Header = () => {
           <nav className='hidden space-x-8 text-lg lg:flex'>
             <ScrollLink to='#o-nas'>O nas</ScrollLink>
             <ScrollLink to='#oferta'>Oferta</ScrollLink>
-            <Link to='/cennik'>Cennik</Link>
-            <Link to='/info'>Dla klienta</Link>
+            <Link
+              className='font-medium text-[#2C2C2C] hover:text-[#C4A484]'
+              to='/cennik'
+            >
+              Cennik
+            </Link>
+            <Link
+              className='font-medium text-[#2C2C2C] hover:text-[#C4A484]'
+              to='/info'
+            >
+              Dla klienta
+            </Link>
             <ScrollLink to='#kontakt'>Kontakt</ScrollLink>
           </nav>
           <button
