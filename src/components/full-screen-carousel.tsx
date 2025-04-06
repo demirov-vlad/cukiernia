@@ -53,20 +53,8 @@ export const FullScreenCarousel: React.FC<FullScreenCarouselProps> = ({
                 key={index}
                 className='relative flex h-[70vh] items-center justify-center md:h-[80vh]'
               >
-                <div className='relative m-8 h-full w-full overflow-hidden'>
-                  <iframe
-                    src={`https://drive.google.com/file/d/${image}/preview`}
-                    allow='autoplay'
-                    allowFullScreen
-                    className='absolute top-0 left-0 h-full w-full scale-x-[1.1] scale-y-[1.15] bg-white md:scale-x-[1.07] md:scale-y-[1.08]'
-                  ></iframe>
-                  <div
-                    className='absolute top-0 left-0 z-10 h-full w-full'
-                    style={{ pointerEvents: 'auto', background: 'transparent' }}
-                    onWheel={e => e.preventDefault()}
-                    onMouseDown={e => e.preventDefault()}
-                    onTouchMove={e => e.preventDefault()}
-                  />
+                <div className='relative mt-2 h-full w-full md:m-4'>
+                  <img src={image} alt='Cannik' className='object-contain' />
                 </div>
               </CarouselItem>
             ))}
