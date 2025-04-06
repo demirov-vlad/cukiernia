@@ -51,13 +51,13 @@ export const FullScreenCarousel: React.FC<FullScreenCarouselProps> = ({
             {images.map((image, index) => (
               <CarouselItem
                 key={index}
-                className='flex h-[70vh] items-center justify-center md:h-[80vh]'
+                className='flex h-[70vh] max-w-full items-center justify-center md:h-[80vh]'
               >
-                <img
-                  src={image}
-                  alt={`Slide ${index + 1}`}
-                  className='h-full w-full object-contain'
-                />
+                <iframe
+                  src={`https://drive.google.com/file/d/${image}/preview`}
+                  allow='autoplay'
+                  className='h-full w-[90%]'
+                ></iframe>
               </CarouselItem>
             ))}
           </CarouselContent>
