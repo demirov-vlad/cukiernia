@@ -48,7 +48,7 @@ export const Contact = () => (
                 <p className='font-medium'>WhatsApp</p>
                 <a href='https://wa.me/48575384230' target='_blank'>
                   <span className='transition duration-300 hover:text-[#C4A484]'>
-                    Napisać do mnie
+                    Napisz do mnie
                   </span>
                 </a>
               </div>
@@ -64,8 +64,8 @@ export const Contact = () => (
             </div>
           </div>
           <p className='mt-2 flex items-center justify-center'>
-            * Nasze godziny pracy mogą się zmieniać w zależności od ilości i
-            pilności zamówień.
+            * Nasze godziny pracy mogą się różnić w zależności od ilości i
+            priorytetu zamówień.
           </p>
           <div className='flex items-center justify-center gap-5 py-10 text-[#C4A484]'>
             <a

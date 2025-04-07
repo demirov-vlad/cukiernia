@@ -73,6 +73,8 @@ import torty73 from './torty73.jpg'
 import torty74 from './torty74.jpg'
 import torty75 from './torty75.jpg'
 import torty76 from './torty76.jpg'
+import torty77 from './torty77.jpg'
+import torty78 from './torty78.jpg'
 
 export const tortyImages = [
   torty1,
@@ -150,4 +152,6 @@ export const tortyImages = [
   torty74,
   torty75,
   torty76,
+  torty77,
+  torty78,
 ]

@@ -19,7 +19,7 @@ export const About = () => (
           <p className='leading-relaxed text-gray-700'>
             Cześć! Nazywam się Anastasiia i witam Cię na mojej stronie! Tworzę
             wyjątkowe torty i desery na każdą okazję – urodziny, wesela,
-            chrzciny, jubileusze i inne ważne chwile. Każde moje wypieki
+            chrzciny, jubileusze i inne ważne chwile. Wszystkie moje wypieki
             powstają z pasją i dbałością o każdy detal. Używam wyłącznie
             naturalnych składników, aby zapewnić nie tylko piękny wygląd, ale
             przede wszystkim doskonały smak. Jeśli szukasz tortu, który zachwyci
