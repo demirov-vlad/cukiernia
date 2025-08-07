@@ -1,5 +1,6 @@
 import Tort from '../assets/icons/tort_icon.png'
 import { tortyImages } from '@/assets/images/gallery/torty/torty.ts'
+import torty_main from '@/assets/images/torty_main.jpg'
 import { bentoImages } from '@/assets/images/gallery/bento/bento.ts'
 import { mochiImages } from '@/assets/images/gallery/mochi/mochi.ts'
 import { pawlowaImages } from '@/assets/images/gallery/pawlowa/pawlowa.ts'
@@ -9,7 +10,7 @@ export const products = [
   {
     id: 1,
     title: 'Torty',
-    image: tortyImages[55],
+    image: torty_main,
     description:
       'Najlepsze i najsmaczniejsze torty tylko u nas! W naszej pracowni wypiekamy wyjątkowe torty na każdą okazję – od eleganckich, weselnych arcydzieł po urocze torty urodzinowe z ulubionymi postaciami z bajek. Stawiamy na jakość i smak, dlatego używamy wyłącznie naturalnych składników i świeżych owoców. Zamów tort, który zachwyci wyglądem i smakiem! Nie zwlekaj i zamów już dziś!',
     gallery: tortyImages,
