@@ -1,3 +1,4 @@
+import inny0 from './2025-08-07 at 8.08.19 AMinny.jpg'
 import inny1 from './inny1.jpg'
 import inny2 from './inny2.jpg'
 import inny3 from './inny3.jpg'
@@ -10,6 +11,7 @@ import inny9 from './inny9.jpg'
 import inny10 from './inny10.jpg'
 
 export const innyImages = [
+  inny0,
   inny1,
   inny2,
   inny3,

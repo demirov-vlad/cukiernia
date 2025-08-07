@@ -1,3 +1,5 @@
+import bento01 from './2025-08-07 at 8.08.19 AMbento.jpg'
+import bento02 from './2025-08-07 at 8.08.19 AMbento 2.jpg'
 import bento1 from './bento1.jpg'
 import bento2 from './bento2.jpg'
 import bento3 from './bento3.jpg'
@@ -19,6 +21,8 @@ import bento19 from './bento19.jpg'
 import bento20 from './bento20.jpg'
 
 export const bentoImages = [
+  bento01,
+  bento02,
   bento1,
   bento2,
   bento3,

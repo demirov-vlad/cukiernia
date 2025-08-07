@@ -1,3 +1,52 @@
+import torty01 from './2025-08-07 at 8.01.55 AMtorty.jpg'
+import torty02 from './2025-08-07 at 8.01.55 AMtorty 2.jpg'
+import torty03 from './2025-08-07 at 8.01.55 AMtorty 3.jpg'
+import torty04 from './2025-08-07 at 8.01.55 AMtorty 4.jpg'
+import torty05 from './2025-08-07 at 8.01.55 AMtorty 5.jpg'
+import torty06 from './2025-08-07 at 8.01.55 AMtorty 6.jpg'
+import torty07 from './2025-08-07 at 8.01.55 AMtorty 7.jpg'
+import torty08 from './2025-08-07 at 8.01.55 AMtorty 8.jpg'
+import torty09 from './2025-08-07 at 8.01.55 AMtorty 9.jpg'
+import torty010 from './2025-08-07 at 8.01.55 AMtorty 10.jpg'
+import torty011 from './2025-08-07 at 8.01.55 AMtorty 11.jpg'
+import torty012 from './2025-08-07 at 8.01.55 AMtorty 12.jpg'
+import torty013 from './2025-08-07 at 8.01.55 AMtorty 13.jpg'
+import torty014 from './2025-08-07 at 8.01.55 AMtorty 14.jpg'
+import torty015 from './2025-08-07 at 8.01.55 AMtorty 15.jpg'
+import torty016 from './2025-08-07 at 8.01.55 AMtorty 16.jpg'
+import torty017 from './2025-08-07 at 8.01.55 AMtorty 17.jpg'
+import torty018 from './2025-08-07 at 8.01.55 AMtorty 18.jpg'
+import torty019 from './2025-08-07 at 8.01.55 AMtorty 19.jpg'
+import torty020 from './2025-08-07 at 8.01.55 AMtorty 20.jpg'
+import torty021 from './2025-08-07 at 8.01.55 AMtorty 21.jpg'
+import torty022 from './2025-08-07 at 8.01.55 AMtorty 22.jpg'
+import torty023 from './2025-08-07 at 8.01.55 AMtorty 23.jpg'
+import torty024 from './2025-08-07 at 8.01.55 AMtorty 24.jpg'
+import torty025 from './2025-08-07 at 8.01.55 AMtorty 25.jpg'
+import torty026 from './2025-08-07 at 8.01.55 AMtorty 26.jpg'
+import torty027 from './2025-08-07 at 8.01.55 AMtorty 27.jpg'
+import torty028 from './2025-08-07 at 8.01.55 AMtorty 28.jpg'
+import torty029 from './2025-08-07 at 8.01.55 AMtorty 29.jpg'
+import torty030 from './2025-08-07 at 8.01.55 AMtorty 30.jpg'
+import torty031 from './2025-08-07 at 8.01.55 AMtorty 31.jpg'
+import torty032 from './2025-08-07 at 8.01.55 AMtorty 32.jpg'
+import torty033 from './2025-08-07 at 8.01.55 AMtorty 33.jpg'
+import torty034 from './2025-08-07 at 8.01.55 AMtorty 34.jpg'
+import torty035 from './2025-08-07 at 8.01.55 AMtorty 35.jpg'
+import torty036 from './2025-08-07 at 8.01.55 AMtorty 36.jpg'
+import torty037 from './2025-08-07 at 8.01.55 AMtorty 37.jpg'
+import torty038 from './2025-08-07 at 8.01.55 AMtorty 38.jpg'
+import torty039 from './2025-08-07 at 8.01.55 AMtorty 39.jpg'
+import torty040 from './2025-08-07 at 8.01.55 AMtorty 40.jpg'
+import torty041 from './2025-08-07 at 8.01.55 AMtorty 41.jpg'
+import torty042 from './2025-08-07 at 8.01.55 AMtorty 42.jpg'
+import torty043 from './2025-08-07 at 8.01.55 AMtorty 43.jpg'
+import torty044 from './2025-08-07 at 8.01.55 AMtorty 44.jpg'
+import torty045 from './2025-08-07 at 8.01.55 AMtorty 45.jpg'
+import torty046 from './2025-08-07 at 8.01.55 AMtorty 46.jpg'
+import torty047 from './2025-08-07 at 8.01.55 AMtorty 47.jpg'
+import torty048 from './2025-08-07 at 8.01.55 AMtorty 48.jpg'
+import torty049 from './2025-08-07 at 8.01.55 AMtorty 49.jpg'
 import torty1 from './torty1.jpg'
 import torty2 from './torty2.jpg'
 import torty3 from './torty3.jpg'
@@ -77,6 +126,55 @@ import torty77 from './torty77.jpg'
 import torty78 from './torty78.jpg'
 
 export const tortyImages = [
+  torty01,
+  torty02,
+  torty03,
+  torty04,
+  torty05,
+  torty06,
+  torty07,
+  torty08,
+  torty09,
+  torty010,
+  torty011,
+  torty012,
+  torty013,
+  torty014,
+  torty015,
+  torty016,
+  torty017,
+  torty018,
+  torty019,
+  torty020,
+  torty021,
+  torty022,
+  torty023,
+  torty024,
+  torty025,
+  torty026,
+  torty027,
+  torty028,
+  torty029,
+  torty030,
+  torty031,
+  torty032,
+  torty033,
+  torty034,
+  torty035,
+  torty036,
+  torty037,
+  torty038,
+  torty039,
+  torty040,
+  torty041,
+  torty042,
+  torty043,
+  torty044,
+  torty045,
+  torty046,
+  torty047,
+  torty048,
+  torty049,
   torty1,
   torty2,
   torty3,
