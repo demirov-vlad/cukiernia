@@ -18,7 +18,7 @@ export const products = [
   {
     id: 2,
     title: 'Bento-tort',
-    image: bentoImages[6],
+    image: bentoImages[8],
     description:
       'Bento torty – małe dzieła sztuki w pudełku! Bento torty to stylowe i kompaktowe torciki, które przywędrowały do nas z Korei. Charakteryzują się niewielkim rozmiarem, lekkością i delikatnym smakiem. Te desery stały się prawdziwym hitem dzięki minimalistycznemu designowi, indywidualnym dekoracjom i wygodnemu formatowi – łatwo je zabrać ze sobą lub podarować bliskiej osobie. Przygotowujemy bento torty z naturalnych składników, tworząc puszyste biszkopty i aksamitne kremy. Możesz wybrać klasyczne smaki lub spróbować czegoś wyjątkowego. Nasze mini torciki są idealne na każdą okazję: urodziny, wyznanie miłości lub po prostu jako słodka niespodzianka bez powodu! Zamów bento tort – małą radość w pięknym pudełku! Zrób sobie słodką przyjemność i złóż zamówienie już teraz!',
     gallery: bentoImages,
