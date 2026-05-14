@@ -26,7 +26,7 @@ export const Wyroznia = () => (
         ))}
       </div>
       <p className='flex h-full max-w-[375px] items-end text-white md:items-center'>
-        W mojej cukierni znajdą Państwo najwyższej jakości wyroby cukiernicze
+        W mojej pracowni powstają najwyższej jakości wyroby cukiernicze
         stanowiące ozdobę każdego przyjęcia, dopełniając najważniejsze
         uroczystości w życiu rodziny.
       </p>
