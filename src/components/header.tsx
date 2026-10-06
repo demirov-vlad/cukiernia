@@ -23,7 +23,7 @@ export const Header = () => {
               />
               <div className='flex flex-col'>
                 <span className='text-lg uppercase md:text-xl'>
-                  DOMOWA CUKIERNIA
+                  PRACOWNIA CUKIERNICZA
                 </span>
                 <span className='text-sm'>Miasto Tarnów</span>
               </div>
